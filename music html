@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seasons Page</title>
+  <link rel="stylesheet" href="music.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Choose a Season:</h1>
+    <button id="winter" class="season-btn">Winter</button>
+    <button id="summer" class="season-btn">Summer</button>
+    <button id="autumn" class="season-btn">Autumn</button>
+    <button id="spring" class="season-btn">Spring</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <script src="music.js"></script>
+</body>
+</html>

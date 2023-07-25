@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .season-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #winter.active {
+    background-color: #a8c0ff; /* icy blue */
+  }
+  
+  #summer.active {
+    background-color: #f9e063; /* sunny yellow */
+  }
+  
+  #autumn.active {
+    background-color: #f39c12; /* orangish yellow */
+  }
+  
+  #spring.active {
+    background-image: linear-gradient(135deg, #fec8d8, #f9e063); /* wet pink and orangish */
+  }
+  
+  
