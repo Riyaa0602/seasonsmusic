@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let activeSound = null; // Variable to store the currently active sound
   
     const seasons = [
-      { name: 'winter', sound: 'C:\downloads file temperor here\temprory\Downloads\winter-winds-7077.mp3', color: '#a8c0ff' },
-      { name: 'summer', sound: 'summer_sound.mp3', color: '#f9e063' },
-      { name: 'autumn', sound: 'autumn_sound.mp3', color: '#f39c12' },
-      { name: 'spring', sound: 'spring_sound.mp3', color: 'linear-gradient(135deg, #fec8d8, #f9e063)' }
+      { name: 'winter', sound: 'winter-wind-7077', color: '#a8c0ff' },
+      { name: 'summer', sound: 'monsoon', color: '#f9e063' },
+      { name: 'autumn', sound: 'autumn', color: '#f39c12' },
+      { name: 'spring', sound: 'spring', color: 'linear-gradient(135deg, #fec8d8, #f9e063)' }
     ];
   
     // Function to play the sound effect
